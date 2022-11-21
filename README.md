@@ -6,7 +6,7 @@ PyTorch Lightning implementation of paper "SVS: Adversarial refinement for spars
 > BMVC 2022
 >
 
-#### [paper](https://arxiv.org/abs/2211.07301)
+#### [Paper](https://arxiv.org/abs/2211.07301) | [Poster](http://personal.ee.surrey.ac.uk/Personal/S.Hadfield/posters/Menendez22b_poster.pdf) | [Video](http://personal.ee.surrey.ac.uk/Personal/S.Hadfield/videos/Menendez22b_video.mp4)
 
 ![Architecture](images/architecture.png)
 
