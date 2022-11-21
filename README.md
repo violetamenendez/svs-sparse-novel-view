@@ -58,3 +58,14 @@ python train.py --expname $exp_name --num_epochs $num_epochs --use_viewdirs --da
 ```
 python test.py --expname $exp_name --num_epochs 1 --use_viewdirs --save_dir $save_dir --dataset_name $dataset --datadir $data_dir --configdir $config_dir --ckpt $ckpt --pts_embedder
 ```
+
+## Citation
+```
+@inproceedings{menendez2022svs,
+  author    = {Menéndez González, Violeta and Gilbert, Andrew and Phillipson, Graeme and Jolly, Stephen and Hadfield, Simon},
+  title     = {SVS: Adversarial Refinement for Sparse Novel View Synthesis},
+  booktitle = {BMVC},
+  year      = {2022}
+}
+
+```
