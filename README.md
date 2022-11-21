@@ -69,3 +69,25 @@ python test.py --expname $exp_name --num_epochs 1 --use_viewdirs --save_dir $sav
 }
 
 ```
+
+## Relevant Works
+[**MVSNeRF: Fast Generalizable Radiance Field Reconstruction from Multi-View Stereo (ICCV 2021)**](https://arxiv.org/abs/2103.15595)<br>
+Anpei Chen, Zexiang Xu, Fuqiang Zhao, Xiaoshuai Zhang, Fanbo Xiang, Jingyi Yu, Hao Su
+
+[**GRAF: Generative Radiance Fields for 3D-Aware Image Synthesis (NeurIPS 2020)**](https://arxiv.org/abs/2007.02442)<br>
+Katja Schwarz, Yiyi Liao, Michael Niemeyer, Andreas Geiger
+
+[**Mip-NeRF 360: Unbounded Anti-Aliased Neural Radiance Fields (CVPR 2022)**](https://arxiv.org/abs/2111.12077)<br>
+Jonathan T. Barron, Ben Mildenhall, Dor Verbin, Pratul P. Srinivasan, Peter Hedman
+
+[**MVSNet: Depth Inference for Unstructured Multi-view Stereo (ECCV 2018)**](https://arxiv.org/abs/1804.02505)<br>
+Yao Yao, Zixin Luo, Shiwei Li, Tian Fang, Long Quan
+
+[**NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis (ECCV 2020)**](http://www.matthewtancik.com/nerf)<br>
+Ben Mildenhall, Pratul P. Srinivasan, Matthew Tancik, Jonathan T. Barron, Ravi Ramamoorthi, Ren Ng
+
+[**IBRNet: Learning Multi-View Image-Based Rendering (CVPR 2021)**](https://ibrnet.github.io/)<br>
+Qianqian Wang, Zhicheng Wang, Kyle Genova, Pratul Srinivasan, Howard Zhou, Jonathan T. Barron, Ricardo Martin-Brualla, Noah Snavely, Thomas Funkhouser
+
+[**RegNeRF: Regularizing Neural Radiance Fields for View Synthesis From Sparse Inputs (CVPR 2022)**](https://arxiv.org/abs/2112.00724)<br>
+Michael Niemeyer, Jonathan T. Barron, Ben Mildenhall, Mehdi S. M. Sajjadi, Andreas Geiger, Noha Radwan
