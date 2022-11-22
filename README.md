@@ -50,8 +50,13 @@ unzip real_iconic_noface.zip
 Download `nerf_llff_data.zip` from [here](https://drive.google.com/drive/folders/128yBriW1IG_3NJ5Rp7APSTZsJqdJdfc1) and add it to your LLFF folder
 
 ## Training
+You can train your own model using the following command with your own parameters:
 ```
-python train.py --expname $exp_name --num_epochs $num_epochs --use_viewdirs --dataset_name $dataset --datadir $dataset --save_dir $save_dir --batch_size $batch_size --configdir $config_dir --patch_size $patch_size --precision $precision --gan_loss $gan_loss --gan_type $gan_type --lambda_rec $lambda_rec --with_distortion_loss --lambda_distortion $l_dist --with_depth_smoothness --lambda_depth_smooth $l_ds --pts_embedder --lambda_adv $l_adv --with_perceptual_loss --lambda_perc $l_perc --lrate $lrate --lrate_disc $lrate_disc
+python train.py --expname $exp_name --num_epochs $num_epochs --use_viewdirs --dataset_name $dataset --datadir $datasdir --save_dir $save_dir --configdir $config_dir --batch_size $batch_size --patch_size $patch_size --precision $precision --gan_loss $gan_loss --gan_type $gan_type --lambda_rec $lambda_rec --with_distortion_loss --lambda_distortion $l_dist --with_depth_smoothness --lambda_depth_smooth $l_ds --pts_embedder --lambda_adv $l_adv --with_perceptual_loss --lambda_perc $l_perc --lrate $lrate --lrate_disc $lrate_disc
+```
+To reproduce the paper results you can run the following command, where `$dataset` is either `dtu` or `llff`. DTU model was trained for 4 epochs, and LLFF was trained for 140 epochs:
+```
+python train.py --expname $exp_name --num_epochs $epochs --use_viewdirs --dataset_name $dataset --datadir $datadir --save_dir $save_dir --configdir $config_dir --batch_size 4096 --patch_size 64 --precision 32 --gan_loss lsgan --gan_type graf --lambda_rec 20 --with_distortion_loss --lambda_distortion 0.001 --with_depth_smoothness --lambda_depth_smooth 0.4 --pts_embedder --lambda_adv 1 --with_perceptual_loss --lambda_perc 1 --lrate 5e-4 --lrate_disc 1e-4
 ```
 
 ## Testing
