@@ -42,7 +42,7 @@ def get_nearest_pose_ids(tar_pose, ref_poses, num_select, tar_id=-1, angular_dis
     Given a target pose and list of reference poses, order the reference poses
     from closest to farthest and select <num_select> of them.
     From (https://github.com/googleinterns/IBRNet)
-    
+
     Args:
         tar_pose: target pose [3, 3]
         ref_poses: reference poses [N, 3, 3]

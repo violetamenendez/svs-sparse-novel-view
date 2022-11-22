@@ -87,7 +87,7 @@ def raw2alpha(sigma):
     alpha = 1. - torch.exp(-sigma)
 
     # Transmission
-    # Compute weight for RGB of each sample along each ray. 
+    # Compute weight for RGB of each sample along each ray.
     # A cumprod() is used to express the idea of the ray
     # not having reflected up to this point yet.
     # [N_rays, N_samples]
