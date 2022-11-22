@@ -1,7 +1,7 @@
 # SVS: Adversarial refinement for sparse novel view synthesis
 PyTorch Lightning implementation of paper "SVS: Adversarial refinement for sparse novel view synthesis", published at BMVC 2022. Research carried at the Centre for Vision Speech and Signal Processing at the University of Surrey, and BBC Research and Development.
 
-> SVS: Adversarial refinement for sparse novel view synthesis
+> SVS: Adversarial refinement for sparse novel view synthesis  
 > [Violeta Menéndez González](https://github.com/violetamenendez), [Andrew Gilbert](https://www.andrewjohngilbert.co.uk/), [Graeme Phillipson](https://www.bbc.co.uk/rd/people/graeme-phillipson), [Stephen Jolly](https://www.bbc.co.uk/rd/people/s-jolly), [Simon Hadfield](http://personal.ee.surrey.ac.uk/Personal/S.Hadfield/biography.html)
 > BMVC 2022
 >
